@@ -55,3 +55,34 @@ print("result=",IntMax(1,3,2))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-23%20at%2010.36.01%20PM.png)
+
+### Quiz 003
+#### Solution:
+
+#### Flow Diagram:
+
+
+#### Codes:
+```.py
+
+def rangeN(N):
+    sum=0
+    for x in range(N+1):
+        sum += x
+        print("All integers from 0 to {} is:".format(N),x)
+
+    return "Sum of those integers is", sum
+
+
+test1=6
+test2=8
+test3=10
+
+print(rangeN(test1))
+print(rangeN(test2))
+print(rangeN(test3))
+
+```
+
+
+#### Testing:
