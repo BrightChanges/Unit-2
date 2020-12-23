@@ -58,9 +58,10 @@ print("result=",IntMax(1,3,2))
 
 ### Quiz 003
 #### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5294.JPG)
 
 #### Flow Diagram:
-
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_2822.JPG)
 
 #### Codes:
 ```.py
@@ -86,3 +87,4 @@ print(rangeN(test3))
 
 
 #### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-23%20at%2010.54.35%20PM.png)
