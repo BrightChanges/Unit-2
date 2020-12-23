@@ -1,7 +1,7 @@
 # 2020 Winter Break H.W_by Kien Le Trung
 ## Quizzes
 
-### Quizess 001
+### Quiz 001
 #### Solution:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7854.JPG)
 
@@ -26,3 +26,32 @@ print("A,B in this test is 2,5 so this should show False; result=",Makes10(2,5))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-23%20at%2010.09.22%20PM.png)
+
+### Quiz 002
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7167.JPG)
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_3988%202.JPG)
+
+
+#### Codes:
+```.py
+
+def IntMax(A,B,C):
+    if A>B and A>C:
+        return A
+    elif B>A and B>C:
+        return B
+    elif C>A and C>B:
+        return C
+
+print("All results below should show 3")
+print("result=",IntMax(1,2,3))
+print("result=",IntMax(3,2,1))
+print("result=",IntMax(1,3,2))
+
+```
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-23%20at%2010.36.01%20PM.png)
