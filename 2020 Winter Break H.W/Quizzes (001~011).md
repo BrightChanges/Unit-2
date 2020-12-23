@@ -58,7 +58,7 @@ print("result=",IntMax(1,3,2))
 
 ### Quiz 003
 #### Solution:
-![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5294.JPG)
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5295.JPG)
 
 #### Flow Diagram:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_2822.JPG)
