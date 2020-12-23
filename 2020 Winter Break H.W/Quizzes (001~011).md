@@ -6,7 +6,7 @@
 ![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7854.JPG)
 
 #### Flow Diagram:
-
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_9488.JPG)
 
 #### Codes:
 ```.py
