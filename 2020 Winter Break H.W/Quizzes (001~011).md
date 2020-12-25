@@ -92,10 +92,10 @@ print(rangeN(test3))
 
 ### Quiz 004
 #### Solution:
-
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_9927.JPG)
 
 #### Flow Diagram:
-
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_6494.JPG)
 
 #### Codes:
 ```.py
