@@ -145,3 +145,29 @@ print(tableM(2))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-25%20at%206.49.42%20PM.png)
+
+### Quiz 006
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5550.JPG)
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_6731.JPG)
+
+#### Codes:
+```.py
+
+def MixStart(S):
+    print("The entered string is:", S)
+    if S[1]=="i" and S[2]=="x":
+        return True
+    return False
+
+print(MixStart("mix snacks"))
+print(MixStart("pix snacks"))
+print(MixStart("piz snacks"))
+
+```
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-25%20at%206.59.04%20PM.png)
