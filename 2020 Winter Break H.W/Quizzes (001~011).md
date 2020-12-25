@@ -120,3 +120,28 @@ print(perfectN(50))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-25%20at%206.31.05%20PM.png)
+
+### Quiz 005
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5012.JPG)
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7852.JPG)
+
+#### Codes:
+```.py
+
+def tableM(N):
+    print("The integer N entered is", N)
+    for i in range(1,10):
+        print(N, "x ", i, "=", N*i)
+
+
+print(tableM(2))
+
+```
+
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-25%20at%206.49.42%20PM.png)
