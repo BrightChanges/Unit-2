@@ -88,3 +88,34 @@ print(rangeN(test3))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-23%20at%2010.54.35%20PM.png)
+
+
+### Quiz 004
+#### Solution:
+
+
+#### Flow Diagram:
+
+
+#### Codes:
+```.py
+
+def perfectN(N):
+    sum = 0
+    print("Integer entered is", N)
+    for i in range(1,N-1):
+        if N%i == 0:
+            print(i)
+            sum+=i
+    if sum==N:
+        print("Sum of factor is:", sum)
+        return True
+    return False
+
+print(perfectN(6))
+print(perfectN(50))
+
+```
+
+
+#### Testing:
