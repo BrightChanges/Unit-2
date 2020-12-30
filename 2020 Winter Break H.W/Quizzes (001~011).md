@@ -195,3 +195,33 @@ print(letters("hello"))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-30%20at%209.17.43%20PM.png)
+
+### Quiz 008
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG-4344.JPG)
+
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG-4345.jpg)
+
+#### Codes:
+```.py
+
+def maxAbs(A):
+    print("The input array is", A)
+    max=0
+    for i in range(0,len(A)):
+        if abs(A[i]) > max:
+            max = abs(A[i])
+    return "max absolute is", max
+
+
+list = [-100,0,3,200]
+print(maxAbs(list))
+
+```
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-30%20at%209.44.24%20PM.png)
+
