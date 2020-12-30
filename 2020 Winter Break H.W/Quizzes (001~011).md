@@ -225,3 +225,39 @@ print(maxAbs(list))
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-30%20at%209.44.24%20PM.png)
 
+
+### Quiz 009
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG-4346.JPG)
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG-4347.jpg)
+
+#### Codes:
+```.py
+
+def missingNumber(A):
+    print("Array input is", A)
+    total=0
+    fake_total=0
+    for i in range(0,len(A)):
+        fake_total+=A[i]
+
+        total = (A[-1]-A[0]+1)/2 * (A[0]+A[-1])
+        
+
+
+    return "missing number is", (int(total-fake_total))
+
+list = [1,2,3,5,6,7]
+print(missingNumber(list))
+
+list2 = [73, 74, 75, 76, 78, 79]
+print(missingNumber(list2))
+
+```
+
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-30%20at%2010.25.03%20PM.png)
