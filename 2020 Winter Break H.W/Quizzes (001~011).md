@@ -171,3 +171,27 @@ print(MixStart("piz snacks"))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-25%20at%206.59.04%20PM.png)
+
+### Quiz 007
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_6839.JPG)
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_4386.JPG)
+
+#### Codes:
+```.py
+
+def letters(S):
+    print("Letters entered are:", S)
+    for i in range(0,(len(S))):
+        print(i, "->", S[i])
+
+
+print(letters("hello"))
+
+```
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-30%20at%209.17.43%20PM.png)
