@@ -261,3 +261,35 @@ print(missingNumber(list2))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-30%20at%2010.25.03%20PM.png)
+
+### Quiz 010
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5557.JPG)
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_8221.JPG)
+
+#### Codes:
+```.py
+
+def BigNeighbour(A):
+    difference = 0
+    print("Input array is:", A)
+    for i in range(0,len(A)-1):
+        d=A[i+1]-A[i]
+        if d > difference:
+            difference=d
+    return difference
+
+list = [0, 5, 6, 10]
+print(BigNeighbour(list))
+
+list2 = [73, 74, 174, 76, 78, 79]
+print(BigNeighbour(list2))
+
+```
+
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-31%20at%202.21.44%20PM.png)
