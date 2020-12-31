@@ -330,16 +330,33 @@ print(a,SameFirstLast(a))
 ### Quiz 012
 
 #### Solution:
-![]()
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5766.JPG)
 
 #### Flow Diagram:
-![]()
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_9670.JPG)
 
 #### Codes:
 ```.py
 
+def wordlength(A):
+    total = 0
+    avg=0
+    print("Input array is:", A)
+    for i in range(0, len(A)):
+        total += len(A[i])
+    avg = total/len(A)
+
+    return avg
+
+list = ["home", "car", "travel", "beach"]
+
+print(wordlength(list))
+
+list2= ["police", "abacus"]
+
+print(wordlength(list2))
 
 ```
 
 #### Testing:
-![]()
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-31%20at%202.45.41%20PM.png)
