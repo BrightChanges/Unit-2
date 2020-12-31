@@ -268,7 +268,7 @@ print(missingNumber(list2))
 ![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5557.JPG)
 
 #### Flow Diagram:
-![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_8221.JPG)
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_6925.JPG)
 
 #### Codes:
 ```.py
@@ -293,3 +293,53 @@ print(BigNeighbour(list2))
 
 #### Testing:
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-31%20at%202.21.44%20PM.png)
+
+### Quiz 011
+
+#### Solution:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_9484.JPG)
+
+
+#### Flow Diagram:
+![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_8042.JPG)
+
+#### Codes:
+```.py
+
+def SameFirstLast(a):
+
+    if len(a) >= 1 and a[0] == a[-1]:
+        return True
+
+
+    return False
+
+
+b = [2,4,5,3]
+
+print(b,SameFirstLast(b))
+
+a = [1, 2, 3, 1]
+print(a,SameFirstLast(a))
+
+```
+
+#### Testing:
+![](https://github.com/BrightChanges/Unit-2/blob/main/Screen%20Shot%200002-12-31%20at%202.32.02%20PM.png)
+
+### Quiz 012
+
+#### Solution:
+![]()
+
+#### Flow Diagram:
+![]()
+
+#### Codes:
+```.py
+
+
+```
+
+#### Testing:
+![]()
