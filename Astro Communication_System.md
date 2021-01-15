@@ -10,12 +10,14 @@ We are creating a communication system that could send and receive messages betw
 #### Sketches of Ideas
 ![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7520.JPG)
 Fig.1 Our sketch for how our system looks like
+"In Fig.1, we can see how our LCD screen will look like and different buttons and functions"
 
 
 ## Criteria B: Design
 #### System Diagram
-![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_7291.JPG)
+![](https://github.com/BrightChanges/Unit-2/blob/main/System-_diagram.pdf)
 Fig.2 The system diagram of our program
+"In Fig.2, we can see that the input of our program are the buttons, and the ouputs are the display on the LCD and the "Morse code" blinking of the light "
 
 #### Flow Diagram
 ![](https://github.com/BrightChanges/Unit-2/blob/main/Astro%20Commun%20Syst%20Flow%20chart.png)
