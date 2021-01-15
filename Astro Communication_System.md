@@ -15,7 +15,7 @@ Fig.1 Our sketch for how our system looks like
 
 ## Criteria B: Design
 #### System Diagram
-![](https://github.com/BrightChanges/Unit-2/blob/main/System-_diagram.pdf)
+![](https://github.com/BrightChanges/Unit-2/blob/main/System-_diagram-1.png)
 Fig.2 The system diagram of our program
 "In Fig.2, we can see that the input of our program are the buttons, and the ouputs are the display on the LCD and the "Morse code" blinking of the light "
 
