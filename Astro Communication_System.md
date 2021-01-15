@@ -32,38 +32,45 @@ Fig.3 Flow diagram of our complete system
 
 #### Codes (so far):
 
-```.py
+```.cpp
 
 
 
 // include the library code:
 #include <LiquidCrystal.h>
 
+//connecting pins of the LCD display
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 10, d7 = 9;
+
+//connecting pins of buttons
 const int but_A = 2;
 const int but_B = 3;
 
 int ButB_status = 0;
 int row_changed = 0;
 
+//connecting pins of the LED
 int lightbulb = 7;
 
+//Creating arrays for the letters, numbers and commands
 String letters[] = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
 String numbers[] = {"0","1","2","3","4","5","6","7","8","9"};
 String commands[] = {"_","D","S"}; 
 
+//Variable to interact with the arrays
 int letter_showing = 0;
 int number_showing = 0;
 
-
-//Mode 2 var
+//variables for the Mode 2 
 int ButB_status2 = 0;
 int reset = 0;
 int command_showing = 0;
+
+Mode status variable
 int mode = 0; //0 - mode 1, 1 - mode 2
 //
 
-
+//Initializing LCD display 
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 String msg = "";
 
@@ -110,7 +117,8 @@ void setup() {
 
 void loop(){
   lcd.clear();
-	
+
+  //Printing all important data(variables) into the serial monitor. It was used to debug the code 
   Serial.print("mode: ");
   Serial.print(mode);
   Serial.print(" Button B mode: ");
@@ -123,6 +131,7 @@ void loop(){
   Serial.println(msg);  
   
   
+  //Printing user interfece on the LCD
   lcd.setCursor(0,1);
   lcd.write(arrow[0]);  
   lcd.setCursor(1,1);
@@ -133,6 +142,8 @@ void loop(){
   lcd.print(":");
  
   
+  //Checking if two buttons were pressed at the same time(to switch the mode). 
+  //Was done by using an AND gate
   if(digitalRead(6) == HIGH){
    
     Serial.print("button A, B are pressed。 Mode ");
@@ -626,8 +637,8 @@ void send(){
 ```
 2st development story:-Creating this system for us were overall a very challenging experience for all members in our team. We were very new to coding in C++ and doing things related to Arduino, especially the LCD. Moreover,
 
-![](https://github.com/BrightChanges/Unit-2/blob/main/Astro_arrays.png)
-Fig.3 Our system model on TinkerCad
+![](https://github.com/BrightChanges/Unit-2/blob/main/139225733_444204473381454_8945648765211191326_n.png)
+Fig.4 Our system model on TinkerCad
 
 ## Criteria D: Functionality
 #### Real-life program
@@ -637,10 +648,10 @@ Video 2: https://www.youtube.com/watch?v=p6FbCQ4yoOI&ab_channel=KienLeTrung
 
 
 ![](https://github.com/BrightChanges/Unit-2/blob/main/IMG_5498.JPG)
-Fig.4 Picture of our system
+Fig.5 Picture of our system
 
 ![](https://github.com/BrightChanges/Unit-2/blob/main/New%20Project%20(71).png)
-Fig.5 Intruction set for our system
+Fig.6 Intruction set for our system
 
 
 ## Criteria E: Evaluation
